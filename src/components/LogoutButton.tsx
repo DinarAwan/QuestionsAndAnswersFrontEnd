@@ -17,7 +17,7 @@ const LogoutButton = () => {
     return (
         <div>
             <button onClick={handleLogout}
-            className="flex items-center space-x-2 text-sm font-semibold text-red-600 hover:text-red-800"
+            className="flex items-center space-x-2 text-sm font-semibold text-red-600 hover:text-red-800 cursor-pointer"
             title="Logout">
                 <FaSignOutAlt />
                 <span>Logout</span>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { axiosInstance } from "../lib/postingan";
+import { axiosInstance } from "../../lib/postingan";
 
 type User = {
   id: number;

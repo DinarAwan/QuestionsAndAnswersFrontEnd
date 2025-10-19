@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Sidebar from "../../components/Sidebar";
-import { usePostingan } from "../../api/usePostingan";
+import { usePostingan } from "../../api/crudPostingan/usePostingan";
 import  CardPostingan  from "../../components/CardPostingan";
 
 type User = {

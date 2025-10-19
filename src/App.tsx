@@ -5,6 +5,7 @@ import AdminDashboard from './pages/admin/AdminDashboard'
 import UsersPage from './pages/admin/UsersPage'
 import Dasboard from './pages/user/Dashboard'
 import LoginPage from './pages/LoginPage'
+import PostinganByUser from './pages/user/PostinganByUser'
 
 function App() {
  
@@ -19,6 +20,7 @@ function App() {
          <Route path="/users" element={<UsersPage />}></Route>
 
          <Route path='/user-dashboard' element={<Dasboard />}></Route>
+         <Route path='/user-postingan' element={<PostinganByUser />}></Route>
       </Routes>
     </>
   )

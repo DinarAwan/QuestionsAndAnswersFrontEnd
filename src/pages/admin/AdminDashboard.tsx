@@ -1,4 +1,4 @@
-import { usePostingan } from "../../api/usePostingan";
+import { usePostingan } from "../../api/crudPostingan/usePostingan";
 import CardCountPostingan from "../../components/CardCountPostingan";
 import Sidebar from "../../components/Sidebar";
 import { useEffect } from "react";

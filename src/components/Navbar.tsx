@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaBell, FaUserCircle, FaBars, FaTimes } from 'react-icons/fa';
+import LogoutButton from './LogoutButton';
 
 
 const Navbar: React.FC = () => {
@@ -32,6 +33,7 @@ const Navbar: React.FC = () => {
                 <p className="text-slate-500">Admin</p>
               </div>
             </div>
+            <LogoutButton />
           </div>
           
           {/* Tombol Menu Mobile */}
